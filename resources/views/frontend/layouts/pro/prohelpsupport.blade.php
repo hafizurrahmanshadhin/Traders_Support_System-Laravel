@@ -1,0 +1,208 @@
+@extends('frontend.dashboard')
+
+@section('title', 'Help & Support')
+
+@section('content')
+    <div class="dashboard--main--content">
+        <div class="help--support--area--wrapper">
+            <div class="help--list--area">
+                <div class="top--area">
+                    <h3 class="common--dashboard--title">Help & Support</h3>
+
+                    <p class="subtitle">Lets take a step ahead and help you better</p>
+                </div>
+
+                <div class="list">
+                    <div class="single--list get--help--btn">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"
+                                fill="none">
+                                <g clip-path="url(#clip0_12179_7422)">
+                                    <path
+                                        d="M33.4698 15.6955C33.3416 11.7825 31.7249 8.06593 28.9496 5.30444C26.0229 2.37719 22.1332 0.765625 17.9977 0.765625C9.64513 0.765625 2.82031 7.41381 2.52612 15.6955C1.88208 15.9808 1.3346 16.4467 0.950025 17.0369C0.565446 17.627 0.360275 18.316 0.359375 19.0204V23.1053C0.360417 24.0699 0.744066 24.9947 1.42614 25.6768C2.10822 26.3589 3.03302 26.7425 3.99762 26.7436C4.62173 26.7428 5.22007 26.4946 5.66138 26.0533C6.10269 25.6119 6.35094 25.0136 6.35169 24.3895V17.7357C6.35169 16.5168 5.41681 15.5228 4.22825 15.4047C4.667 8.1895 10.6734 2.45312 17.9977 2.45312C21.6832 2.45312 25.1487 3.88975 27.7571 6.49806C30.1522 8.89319 31.5539 12.0151 31.7649 15.4052C30.5774 15.5245 29.6443 16.5179 29.6443 17.7357V24.3889C29.6443 25.618 30.5937 26.6181 31.7964 26.7222V28.4035C31.7953 29.3139 31.4332 30.1867 30.7894 30.8304C30.1456 31.4741 29.2727 31.8361 28.3623 31.837H25.8192C25.6478 31.3371 25.3241 30.9035 24.8936 30.597C24.4632 30.2905 23.9475 30.1266 23.4191 30.1281H20.7978C20.4215 30.1281 20.0604 30.208 19.7296 30.3621C19.2867 30.5667 18.9116 30.8937 18.6485 31.3046C18.3854 31.7154 18.2452 32.1929 18.2446 32.6807C18.2446 33.3636 18.5107 34.0049 18.9928 34.4847C19.229 34.7229 19.5103 34.9118 19.8201 35.0404C20.13 35.169 20.4623 35.2348 20.7978 35.2339H23.4191C24.5058 35.2339 25.4637 34.5314 25.8209 33.5245H28.3623C31.1866 33.5245 33.4839 31.2272 33.4839 28.4035V26.4218C34.1241 26.1349 34.6678 25.6692 35.0496 25.0806C35.4314 24.4921 35.635 23.8057 35.636 23.1042V19.0193C35.636 17.5377 34.7439 16.2619 33.4698 15.6955ZM4.66362 17.7357V24.3889C4.66362 24.7563 4.36494 25.0555 3.99706 25.0555C3.47987 25.0549 2.98404 24.8492 2.61833 24.4835C2.25262 24.1178 2.04691 23.6219 2.04631 23.1047V19.0199C2.04691 18.5027 2.25262 18.0069 2.61833 17.6411C2.98404 17.2754 3.47987 17.0697 3.99706 17.0691C4.36494 17.0691 4.66362 17.3684 4.66362 17.7357ZM24.2656 32.8619C24.2237 33.0556 24.1169 33.2292 23.9628 33.3539C23.8087 33.4786 23.6167 33.5469 23.4185 33.5476H20.7972C20.5666 33.5476 20.3501 33.4576 20.1847 33.2922C20.1042 33.2123 20.0404 33.1172 19.9969 33.0124C19.9535 32.9076 19.9313 32.7953 19.9316 32.6819C19.9322 32.4525 20.0236 32.2327 20.1858 32.0706C20.348 31.9085 20.5679 31.8172 20.7972 31.8167H23.4185C23.6491 31.8167 23.8657 31.9062 24.0305 32.0716C24.1936 32.2341 24.2836 32.4513 24.2836 32.6819C24.2842 32.7438 24.2774 32.8056 24.2656 32.8619ZM33.9485 23.1047C33.9479 23.6219 33.7422 24.1178 33.3765 24.4835C33.0108 24.8492 32.5149 25.0549 31.9977 25.0555C31.821 25.0554 31.6516 24.9851 31.5266 24.8601C31.4016 24.7351 31.3313 24.5657 31.3312 24.3889V17.7357C31.3312 17.3684 31.6299 17.0691 31.9977 17.0691C32.5149 17.0697 33.0108 17.2754 33.3765 17.6411C33.7422 18.0069 33.9479 18.5027 33.9485 19.0199V23.1047Z"
+                                        fill="white" />
+                                    <path
+                                        d="M23.4633 23.3954C24.4112 23.3944 25.32 23.0173 25.9902 22.3471C26.6605 21.6768 27.0375 20.768 27.0386 19.8201V12.5352C27.0386 11.5823 26.6662 10.6846 25.9901 10.0085C25.3139 9.33234 24.4168 8.95996 23.4633 8.95996H12.5362C11.5883 8.961 10.6795 9.33801 10.0093 10.0083C9.33899 10.6785 8.96198 11.5873 8.96094 12.5352V19.8201C8.96198 20.768 9.33899 21.6768 10.0093 22.3471C10.6795 23.0173 11.5883 23.3944 12.5362 23.3954H12.6031V25.2831C12.602 25.5137 12.6465 25.7421 12.734 25.9554C12.8215 26.1686 12.9503 26.3625 13.1129 26.5258C13.2756 26.6891 13.469 26.8186 13.6819 26.907C13.8948 26.9953 14.1231 27.0406 14.3536 27.0404C14.584 27.0409 14.8121 26.9949 15.0243 26.9053C15.2365 26.8158 15.4285 26.6844 15.5889 26.519L18.7293 23.3954H23.4633ZM17.7871 21.9531L14.3885 25.3332C14.3733 25.349 14.3621 25.3608 14.33 25.3467C14.2912 25.331 14.2912 25.3056 14.2912 25.2831V22.5516C14.2912 22.3279 14.2023 22.1133 14.0441 21.955C13.8858 21.7968 13.6712 21.7079 13.4474 21.7079H12.5368C12.0363 21.7073 11.5565 21.5082 11.2026 21.1543C10.8487 20.8004 10.6496 20.3206 10.649 19.8201V12.5352C10.6496 12.0347 10.8487 11.5549 11.2026 11.201C11.5565 10.8471 12.0363 10.6481 12.5368 10.6475H23.4639C23.9668 10.6475 24.4398 10.8443 24.7976 11.2015C25.1553 11.5593 25.3516 12.0329 25.3516 12.5352V19.8201C25.351 20.3206 25.152 20.8004 24.7981 21.1543C24.4442 21.5082 23.9644 21.7073 23.4639 21.7079H18.3822C18.1589 21.7079 17.9452 21.7962 17.7871 21.9531Z"
+                                        fill="white" />
+                                    <path
+                                        d="M13.9011 15.0674C13.2148 15.0674 12.6562 15.6265 12.6562 16.3122C12.6562 16.9979 13.2154 17.557 13.9011 17.557C14.5879 17.557 15.147 16.9979 15.147 16.3122C15.147 15.6265 14.5884 15.0674 13.9011 15.0674ZM17.9994 15.0674C17.3132 15.0674 16.7546 15.6265 16.7546 16.3122C16.7546 16.9979 17.3138 17.557 17.9994 17.557C18.6868 17.557 19.2454 16.9979 19.2454 16.3122C19.2454 15.6265 18.6868 15.0674 17.9994 15.0674ZM22.0978 15.0674C21.4116 15.0674 20.853 15.6265 20.853 16.3122C20.853 16.9979 21.4121 17.557 22.0978 17.557C22.7846 17.557 23.3438 16.9979 23.3438 16.3122C23.3438 15.6265 22.7846 15.0674 22.0978 15.0674Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_12179_7422">
+                                        <rect width="36" height="36" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+
+                        <div class="details">
+                            <p class="title">My help</p>
+
+                            <p class="subtitle">
+                                Lets take a step ahead and help you better
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="{{ route('faq') }}">
+                        <div class="single--list">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="35" viewBox="0 0 34 35"
+                                    fill="none">
+                                    <path
+                                        d="M17.0026 31.6322C9.17857 31.6322 2.83594 25.2895 2.83594 17.4655C2.83594 9.64146 9.17857 3.29883 17.0026 3.29883C24.8266 3.29883 31.1693 9.64146 31.1693 17.4655C31.1693 25.2895 24.8266 31.6322 17.0026 31.6322ZM17.0026 28.7988C23.2619 28.7988 28.3359 23.7248 28.3359 17.4655C28.3359 11.2063 23.2619 6.13216 17.0026 6.13216C10.7434 6.13216 5.66927 11.2063 5.66927 17.4655C5.66927 23.7248 10.7434 28.7988 17.0026 28.7988ZM15.5859 21.7155H18.4193V24.5488H15.5859V21.7155ZM18.4193 19.3852V20.2988H15.5859V18.1738C15.5859 17.3914 16.2202 16.7572 17.0026 16.7572C18.1762 16.7572 19.1276 15.8057 19.1276 14.6322C19.1276 13.4586 18.1762 12.5072 17.0026 12.5072C15.9717 12.5072 15.1122 13.2413 14.9184 14.2153L12.1396 13.6596C12.5916 11.3868 14.5971 9.67383 17.0026 9.67383C19.741 9.67383 21.9609 11.8937 21.9609 14.6322C21.9609 16.8783 20.4673 18.7756 18.4193 19.3852Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+
+                            <div class="details">
+                                <p class="title">FAQ</p>
+
+                                <p class="subtitle">
+                                    Lets take a step ahead and help you better
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="help--request--area">
+                <div class="top--part">
+                    <h3 class="common--dashboard--title">Help Request</h3>
+                </div>
+
+                @foreach ($tickets as $ticket)
+                    <div class="modal_wrapper">
+                        <div class="help--center--popup request">
+                            <div class="content">
+                                <div class="top--part">
+                                    <h3 class="common--dashboard--title">Request Call</h3>
+                                    <div class="close--btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18"
+                                            viewBox="0 0 17 18" fill="none">
+                                            <path
+                                                d="M13.1347 18L8.25607 11.2993L3.56512 18H0L6.64238 9.06569L0 0H3.86534L8.74393 6.66788L13.3974 0H16.9625L10.3576 8.90146L17 18H13.1347Z"
+                                                fill="#141414" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <p class="intro--text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+
+                                <form action="{{ route('pro-reply.store') }}" method="POST" class="input--wrapper">
+                                    @csrf
+
+                                    <input type="hidden" name="ticket_id" value="{{ $ticket->id }}" class="form-control"
+                                        id="ticket_id" placeholder="Enter Ticket ID">
+                                    <textarea name="content" id="content" placeholder="Add Reply"></textarea>
+
+                                    <!-- submit button -->
+                                    <button type="submit" class="submit">SEND NOW</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="request--wrapper">
+                            <div class="single--request">
+                                <h3 class="common--dashboard--title">{{ $ticket->status }}</h3>
+                                <div class="content--wrapper">
+                                    <div class="top--area">
+                                        <p class="name">{{ $ticket->user->name }}</p>
+                                        <p class="date">{{ $ticket->created_at->format('D, M d, Y, h:i A') }}</p>
+                                    </div>
+                                    <p class="description">
+                                        {{ $ticket->message }}
+                                    </p>
+                                    @if ($ticket->replies->count())
+                                        <div class="replies--wrapper mt-4">
+                                            <h4 class="replies--title">Replies</h4>
+                                            @foreach ($ticket->replies as $reply)
+                                                <div class="single--reply p-3 mb-3 border rounded">
+                                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                                        <div>
+                                                            <p class="reply--user font-weight-bold mb-0">
+                                                                <span>From:</span>
+                                                                {{ $reply->user->name ?? 'Unknown User' }}
+                                                            </p>
+                                                            <p class="reply--date text-muted mb-0">
+                                                                {{ $reply->created_at->format('D, M d, Y, h:i A') }}</p>
+                                                        </div>
+                                                    </div>
+                                                    <p class="reply--content">{{ $reply->content }}</p>
+                                                </div>
+                                            @endforeach
+                                        </div>
+                                    @endif
+                                    <div class="bottom--area">
+                                        <div style="padding: 10px;">
+                                            <p class="instruction">
+                                                WE ARE LOOKING INTO YOUR ISSUE. HOPE TO RESOLVE THE ISSUE AT THE
+                                                EARLIEST
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="btn--fill get--request--btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="24"
+                                                    viewBox="0 0 31 24" fill="none">
+                                                    <path
+                                                        d="M15.3656 10.6821C16.302 12.3288 17.6712 13.698 19.3179 14.6344L20.2024 13.3961C20.4965 12.9845 21.0516 12.8573 21.4956 13.0998C22.9024 13.8683 24.4571 14.3353 26.0789 14.4637C26.599 14.5049 27 14.9389 27 15.4606V19.9234C27 20.4361 26.6122 20.8657 26.1022 20.9181C25.5723 20.9726 25.0377 21 24.5 21C15.9396 21 9 14.0604 9 5.5C9 4.96227 9.02742 4.42771 9.08189 3.89776C9.1343 3.38775 9.56394 3 10.0767 3H14.5394C15.0611 3 15.4951 3.40104 15.5363 3.92109C15.6647 5.54288 16.1317 7.09764 16.9002 8.50444C17.1427 8.9484 17.0155 9.50354 16.6039 9.79757L15.3656 10.6821ZM12.8443 10.0252L14.7442 8.66809C14.2055 7.50514 13.8363 6.27183 13.6473 5H11.0091C11.003 5.16632 11 5.333 11 5.5C11 12.9558 17.0442 19 24.5 19C24.667 19 24.8337 18.997 25 18.9909V16.3527C23.7282 16.1637 22.4949 15.7945 21.3319 15.2558L19.9748 17.1558C19.4258 16.9425 18.8956 16.6915 18.3874 16.4061L18.3293 16.373C16.3697 15.2587 14.7413 13.6303 13.627 11.6707L13.5939 11.6126C13.3085 11.1044 13.0575 10.5742 12.8443 10.0252Z"
+                                                        fill="white" />
+                                                </svg>
+                                                <span>Request a call back</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="help--center--popup" id="help--center--popup">
+        <div class="content">
+            <div class="top--part">
+                <h3 class="common--dashboard--title">Help Center</h3>
+                <div class="close--btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18"
+                        fill="none">
+                        <path
+                            d="M13.1347 18L8.25607 11.2993L3.56512 18H0L6.64238 9.06569L0 0H3.86534L8.74393 6.66788L13.3974 0H16.9625L10.3576 8.90146L17 18H13.1347Z"
+                            fill="#141414" />
+                    </svg>
+                </div>
+            </div>
+
+            <p class="intro--text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+
+            <form action="{{ route('pro-help.store') }}" method="POST" class="input--wrapper">
+                @csrf
+                <input type="text" name="title" id="title" placeholder="Title" required />
+                <input type="email" name="email" id="email" placeholder="Email Address" required />
+
+                <select name="type" id="type" required>
+                    <option value="" disabled selected>Select a category</option>
+                    <option value="subscription">Subscription</option>
+                    <option value="technical">Technical</option>
+                    <option value="general">General</option>
+                </select>
+
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+
+                <!-- submit button -->
+                <button type="submit" class="submit">SEND NOW</button>
+            </form>
+        </div>
+    </div>
+@endsection
